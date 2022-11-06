@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>File Not Found</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+
+body, h1, p {
+  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-image: url('./assets/home/404.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.row {
+  padding: 1rem 2rem;
+  background-color: #fff;
+  margin-bottom: 20%;
+}
+</style>
+</head>
+<body>
+  <div class="container text-center" id="error">
+    <div class="row">
+      <p class="lead">For Your Eyes Only - The 404 Error</p>
+    </div>
+  </div>
+</body>
+</html>
